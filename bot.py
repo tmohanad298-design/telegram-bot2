@@ -9,10 +9,10 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
 from database import init_db, get_or_create_user, update_user_language, get_products, get_product, update_balance, add_product
 from languages import TEXTS
 
-API_TOKEN = 'YOUR_BOT_TOKEN_HERE'
-USDT_ADDRESS = 'TPxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
-ADMIN_USERNAME = 'YourTelegramUsername'
-ADMIN_ID = 123456789  # ضع آيدي تيليجرام الخاص بك هنا كأرقام
+API_TOKEN = '8684558176:AAG5GM6ZQI0Ftf2iMly8Fb7y3IJoLzFdXcw'
+USDT_ADDRESS = 'TFgUtXFKvydegCkbcbKk66tgbzqTSNZGrF'
+ADMIN_USERNAME = 'I_I_I_02'
+ADMIN_ID = 8654998972  # ضع آيدي تيليجرام الخاص بك هنا كأرقام
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=API_TOKEN)
